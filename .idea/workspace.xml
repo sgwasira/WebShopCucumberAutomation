@@ -4,11 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b6e39bf-2202-4f6b-a5ff-e6dbb9bba668" name="Changes" comment="" />
+    <list default="true" id="4b6e39bf-2202-4f6b-a5ff-e6dbb9bba668" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/BrowserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/BrowserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/RegisterStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/RegisterStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ComputersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ComputersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/NotebooksProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/NotebooksProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegisterResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegisterResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/FakerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/FakerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/PurchaseSingleProductTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/PurchaseSingleProductTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/RegisterNewUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/RegisterNewUser.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -16,9 +41,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2lhrpijih4Dxl49DXahpl8JhKVe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,10 +52,128 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.Feature: PurchaseSingleProductTest.executor": "Run",
+    "Cucumber Java.Scenario: As A user I want to be able to register on the shopping website.executor": "Run",
+    "Cucumber Java.Scenario: As A user I want to make a purchase of one product from the online shop.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.BrowserTest.executor": "Run",
+    "TestNG.runner.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/USER/Documents/Bootcamp/WebShopCucumberAutomation"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\Bootcamp\untitled\src\test\resources\Features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\Bootcamp\untitled\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.runner">
+    <configuration name="Feature: PurchaseSingleProductTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/PurchaseSingleProductTest.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WebShopCucumberAutomation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: PurchaseSingleProductTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: As A user I want to be able to register on the shopping website" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/RegisterNewUser.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WebShopCucumberAutomation" />
+      <option name="NAME_FILTER" value="^As A user I want to be able to register on the shopping website$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^As A user I want to be able to register on the shopping website$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As A user I want to be able to register on the shopping website" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: As A user I want to make a purchase of one product from the online shop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/PurchaseSingleProductTest.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WebShopCucumberAutomation" />
+      <option name="NAME_FILTER" value="^As A user I want to make a purchase of one product from the online shop$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^As A user I want to make a purchase of one product from the online shop$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As A user I want to make a purchase of one product from the online shop" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrowserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebShopCucumberAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="Steps.BrowserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebShopCucumberAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runner" />
+      <option name="MAIN_CLASS_NAME" value="Runner.runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.runner" />
+        <item itemvalue="Cucumber Java.Scenario: As A user I want to be able to register on the shopping website" />
+        <item itemvalue="Cucumber Java.Scenario: As A user I want to make a purchase of one product from the online shop" />
+        <item itemvalue="Cucumber Java.Feature: PurchaseSingleProductTest" />
+        <item itemvalue="TestNG.BrowserTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
