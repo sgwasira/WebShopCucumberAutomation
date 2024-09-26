@@ -14,6 +14,7 @@ public class StepDef {
     LoginPage loginPage;
     ComputersPage computersPage;
     NotebooksProductPage notebooksProductPage;
+    LaptopProductPage laptopProductPage;
 
     @Given("I am on the Demo Web Shop Home Page")
     public void i_am_on_the_demo_web_shop_home_page() {
@@ -60,7 +61,7 @@ public class StepDef {
 
     @And("I click on the Notebooks Link")
     public void iClickOnTheNotebooksLink() {
-        computersPage= new ComputersPage(driver);
+        computersPage = new ComputersPage(driver);
         computersPage.verifyTheComputersPage();
         computersPage.selectNotebooks();
     }
@@ -72,4 +73,24 @@ public class StepDef {
         notebooksProductPage.verifyNotebookProductsPage();
         notebooksProductPage.selectLaptop();
     }
+
+    @Then("I add the number of laptop I want to buy")
+    public void i_add_the_number_of_laptop_i_want_to_buy() throws InterruptedException {
+        laptopProductPage = new LaptopProductPage(driver);
+        Thread.sleep(2000);
+        laptopProductPage.clearQtyField();
+        laptopProductPage.addQtyToBuy();
+
+    }
+
+    @Then("Click the add to cart button")
+    public void click_the_add_to_cart_button() {
+        laptopProductPage.clickAddToCart();
+    }
+
+    @Then("I click on the Shopping cart link")
+    public void i_click_on_the_shopping_cart_link() {
+        laptopProductPage.clickShoppingCartButton();
+    }
+
 }
