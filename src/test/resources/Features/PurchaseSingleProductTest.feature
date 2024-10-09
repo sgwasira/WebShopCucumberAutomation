@@ -15,6 +15,10 @@ Feature: Full Single Order Purchase
     And I add the number of laptop I want to buy
     And Click the add to cart button
     Then I click on the Shopping cart link
+    And I select the shipping country
+    And Select Non US
+    And i enter Zip code
+    And I click on the check out button
 
 
 

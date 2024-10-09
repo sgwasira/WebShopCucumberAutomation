@@ -15,6 +15,7 @@ public class StepDef {
     ComputersPage computersPage;
     NotebooksProductPage notebooksProductPage;
     LaptopProductPage laptopProductPage;
+    CartPage cartPage;
 
     @Given("I am on the Demo Web Shop Home Page")
     public void i_am_on_the_demo_web_shop_home_page() {
@@ -93,4 +94,30 @@ public class StepDef {
         laptopProductPage.clickShoppingCartButton();
     }
 
+    @And("I select the shipping country")
+    public void i_select_the_shipping_country() throws InterruptedException {
+        cartPage = new CartPage(driver);
+        Thread.sleep(2000);
+        cartPage.selectCountry();
+    }
+
+    @And("Select Non US")
+    public void select_non_us() {
+        cartPage.selectProvince();
+    }
+
+    @And("i enter Zip code")
+    public void i_enter_zip_code() {
+        cartPage.enterZipCode();
+    }
+
+    @And("I click on the check out button")
+    public void i_click_on_the_check_out_button() {
+        cartPage.selectTermsOfService();
+        cartPage.clickCheckOut();
+    }
+
 }
+
+
+
